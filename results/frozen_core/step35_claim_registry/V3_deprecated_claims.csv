@@ -1,0 +1,8 @@
+﻿claim,old_value,replacement,reason
+RF20 temperature penalty,6.736710 pp,6.996524763109244 pp,Old 34-cell reference replaced by matched 31-cell reference.
+RF20 temperature reference,7.253342 pp,6.993527195938773 pp,Use matched 31-cell strict LOBO reference.
+RF20 temperature CI,"[3.757, 9.619] pp","[4.1168398024248685, 9.712288932257596] pp",Old CI is stale after matched-pool correction.
+10 min vs 10 s wording,two orders of magnitude,60 times longer than the nominal 10-s interval,600/10 = 60.
+square-wave interpretation,interpolated activity excludes aliasing,107/111 windows had one raw sample; aliasing/interpolation distortion cannot be excluded,Sparse sampling limits physical interpretation.
+10-s meaning,total decision time = 10 s,10-s nominal interval; median onset-to-decision = 21.812 s,Includes stabilization and wait for next raw sample.
+deployed all-data fit,unseen-battery generalization result,7.096415 pp strict LOBO is the generalization estimate; all-data fit is deployed instance,Different estimands.

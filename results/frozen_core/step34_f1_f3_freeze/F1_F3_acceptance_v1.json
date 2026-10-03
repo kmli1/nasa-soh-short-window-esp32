@@ -1,0 +1,141 @@
+{
+  "schema_version": "F1_F3_ACCEPTANCE_V1",
+  "generated_utc": "2026-10-02T11:18:19.312599+00:00",
+  "protocol_id": "ONLINE_FIXED_START_CAUSAL_10S_V1",
+  "upstream_step33_sha256": "a97dfde54359d9ecb5d5d2348429a6f25b0bb0f1c9b54ea29a74c414fd77e162",
+  "F1": {
+    "allowed_batteries": 31,
+    "excluded_mixed_batteries": [
+      "B0038",
+      "B0039",
+      "B0040"
+    ],
+    "RF20_condition_mae_pp": 13.99005195904802,
+    "RF20_matched_lobo_mae_pp": 6.993527195938773,
+    "RF20_temperature_penalty_pp": 6.996524763109244,
+    "RF20_temperature_penalty_ci95_pp": [
+      4.1168398024248685,
+      9.712288932257596
+    ],
+    "RF150_condition_mae_pp": 13.062143313385874,
+    "RF150_matched_lobo_mae_pp": 7.063627836126513,
+    "RF150_temperature_penalty_pp": 5.998515477259362,
+    "RF150_temperature_penalty_ci95_pp": [
+      3.2768166753665358,
+      8.789110507712824
+    ],
+    "bootstrap_repeats": 5000,
+    "bootstrap_retrains_model": false
+  },
+  "F3": {
+    "canonical_npz_sha256": "4472effc044206968c759c3f133d8216efb6dec7abae02074972f15951318962",
+    "rows": 2521,
+    "features": 44,
+    "X_dtype": "float32",
+    "y_dtype": "float64",
+    "batteries": 34,
+    "tree_matches": "20/20",
+    "legacy_float32_target_tree_matches": "0/20",
+    "strict_lobo_macro_mae_pp": 7.096415349426007,
+    "max_battery_mae_diff_vs_frozen_pp": 2.3092638912203256e-14,
+    "sklearn_version": "1.6.1"
+  },
+  "checks": [
+    {
+      "check_id": "F1_01",
+      "check": "Critical F1 artifact hashes frozen",
+      "pass": true
+    },
+    {
+      "check_id": "F1_02",
+      "check": "Temperature matched pool = 31 unique cells",
+      "pass": true
+    },
+    {
+      "check_id": "F1_03",
+      "check": "B0038/B0039/B0040 excluded from strict pool",
+      "pass": true
+    },
+    {
+      "check_id": "F1_04",
+      "check": "Temperature condition folds have zero battery overlap",
+      "pass": true
+    },
+    {
+      "check_id": "F1_05",
+      "check": "Matched LOBO has 31 folds/model and zero overlap",
+      "pass": true
+    },
+    {
+      "check_id": "F1_06",
+      "check": "Corrected aggregate values match frozen results",
+      "pass": true
+    },
+    {
+      "check_id": "F1_07",
+      "check": "5000-repeat battery bootstrap CIs match frozen results",
+      "pass": true
+    },
+    {
+      "check_id": "F1_08",
+      "check": "Independent audit sanity and claim registry pass",
+      "pass": true
+    },
+    {
+      "check_id": "F3_01",
+      "check": "Critical F3 artifact hashes frozen",
+      "pass": true
+    },
+    {
+      "check_id": "F3_02",
+      "check": "Canonical NPZ is 2521x44 float32 X + float64 y",
+      "pass": true
+    },
+    {
+      "check_id": "F3_03",
+      "check": "Canonical target reconstructs 20/20 trees",
+      "pass": true
+    },
+    {
+      "check_id": "F3_04",
+      "check": "Legacy float32 target reconstructs 0/20 trees",
+      "pass": true
+    },
+    {
+      "check_id": "F3_05",
+      "check": "Canonical strict LOBO has 34 unique batteries",
+      "pass": true
+    },
+    {
+      "check_id": "F3_06",
+      "check": "Canonical LOBO macro MAE = 7.096415349426 pp",
+      "pass": true
+    },
+    {
+      "check_id": "F3_07",
+      "check": "Max per-battery MAE diff vs frozen <=3e-14 pp",
+      "pass": true
+    },
+    {
+      "check_id": "F3_08",
+      "check": "RF20x7 parameter contract passes",
+      "pass": true
+    },
+    {
+      "check_id": "F3_09",
+      "check": "Target precision contract passes",
+      "pass": true
+    },
+    {
+      "check_id": "F3_10",
+      "check": "Exact software environment contract passes",
+      "pass": true
+    },
+    {
+      "check_id": "F3_11",
+      "check": "F3 internal artifact manifest verifies",
+      "pass": true
+    }
+  ],
+  "F1_F3_FINAL_ACCEPTANCE": true
+}

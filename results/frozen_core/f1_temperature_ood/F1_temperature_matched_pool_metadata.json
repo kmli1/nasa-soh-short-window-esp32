@@ -1,0 +1,19 @@
+{
+  "protocol_id": "ONLINE_FIXED_START_CAUSAL_10S_V1",
+  "correction_id": "F1_TEMPERATURE_MATCHED_POOL_REFERENCE_V1",
+  "canonical_target": "final_online_training_manifest.csv::soh_rated_pct (float64)",
+  "feature_dtype": "float32",
+  "allowed_battery_count": 31,
+  "excluded_mixed_temperature_batteries": [
+    "B0038",
+    "B0039",
+    "B0040"
+  ],
+  "random_state": 42,
+  "bootstrap_repeats": 5000,
+  "model_retrained_inside_bootstrap": false,
+  "created_at": "2026-10-01T14:18:04.198293+03:00",
+  "feature_matrix_sha256": "1faf11802ab082e470b26257c8e34a9eb33c50a70ebea8ff385c4043e2f30acd",
+  "manifest_sha256": "f177295b5c20b9ec1246e5f40d3652f0eb86bc42bbae169d03781758e2e74f40",
+  "rf20_pipeline_sha256": "2ad2b2ca89ab0a5aa09cffe3df663bbbb49d3e198903e3e6939c96f555f295e2"
+}

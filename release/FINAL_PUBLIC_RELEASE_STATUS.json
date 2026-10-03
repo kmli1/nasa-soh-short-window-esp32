@@ -1,0 +1,29 @@
+{
+  "schema": "FINAL_PUBLIC_RELEASE_V5",
+  "created_utc": "2026-10-03T12:43:17.842403+00:00",
+  "P07_PASS": true,
+  "P08_PASS": true,
+  "P09_PASS": true,
+  "P10_PASS": true,
+  "PRIVACY_PATH_SCAN_PASS": true,
+  "FINAL_FIGURE_RELEASE_PASS": true,
+  "FINAL_PUBLIC_RELEASE_PASS": true,
+  "SUBMISSION_READY": true,
+  "technical_freeze_p09_zip_sha256": "19ef95adf99b8055180491b1c77ff25665e1e6d107671685c502bae1374ff9d5",
+  "scientific_results_recomputed": false,
+  "scientific_results_modified": false,
+  "frozen_core_file_count": 94,
+  "frozen_core_hash_diff": 0,
+  "canonical_deployment_path": "deployment/esp32_c6/canonical_deployment/final_online_rf20x7/",
+  "historical_arbitrary_single_deployment_included": false,
+  "headline_results": {
+    "strict_lobo_macro_mae_pp": 7.096415349426006,
+    "temperature_matched_ood_penalty_pp": 6.996524763109244,
+    "incremental_inference_sketch_flash_kib": 63.3125,
+    "rf_only_device_latency_us": 62.302,
+    "feature_plus_rf_post_acquisition_us": 584.141,
+    "final_cycles": 2521,
+    "batteries": 34,
+    "features": 44
+  }
+}

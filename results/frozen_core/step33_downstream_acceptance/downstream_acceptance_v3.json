@@ -1,0 +1,93 @@
+{
+  "schema_version": "DOWNSTREAM_ACCEPTANCE_V3",
+  "generated_utc": "2026-10-02T07:53:23.992985+00:00",
+  "protocol_id": "ONLINE_FIXED_START_CAUSAL_10S_V1",
+  "duration_s": 10.0,
+  "F5_FINAL_ACCEPTANCE": true,
+  "F5_contract_sha256": "cc21e170b42d185c619d28e4b8aafde406b20d4338096f0daa759fab7bb9b20d",
+  "F2": {
+    "square_cycles": 111,
+    "raw_inside_eq_1": 107,
+    "raw_inside_eq_2": 4,
+    "raw_inside_median": 1.0
+  },
+  "F2_PASS": true,
+  "F7_source_sha256": "12605b610b65e8d5bd04041386332d3f607c93eefbcb59b46f7e68c9b45e3e87",
+  "F7_contract_sha256": "6131f2743da5dff8ab10f7e8ba125352ffffdac928874de0db6ec7858e6da982",
+  "F7_row": {
+    "cycles": 2521,
+    "batteries": 34,
+    "skipped_cycles": 0,
+    "future_support_max_s": 0.0,
+    "decision_delay_median_s": 6.812000000000005,
+    "decision_delay_p95_s": 14.015999999999998,
+    "decision_delay_max_s": 15.140999999999998,
+    "extra_history_median_s": 3.375,
+    "extra_history_p95_s": 9.25,
+    "extra_history_max_s": 9.985,
+    "raw_inside_median": 1.0,
+    "raw_inside_min": 1.0,
+    "raw_inside_p95": 2.0,
+    "interpolated_fraction_mean": 0.9089827269121198
+  },
+  "active_onset_to_decision": {
+    "median_s": 21.812000000000005,
+    "p95_s": 29.016,
+    "max_s": 30.141
+  },
+  "F7_PASS": true,
+  "cohort_cycle_uid_sha256": "db9a535cf501947565f8862d6c4557a94d7f408ebdb29b5ee1de3f29864b84f5",
+  "checks": [
+    {
+      "check_id": "D01",
+      "check": "F5 acceptance validated",
+      "pass": true
+    },
+    {
+      "check_id": "D02",
+      "check": "F2 recomputed from final provenance",
+      "pass": true
+    },
+    {
+      "check_id": "D03",
+      "check": "F7 exact source SHA256 matches contract",
+      "pass": true
+    },
+    {
+      "check_id": "D04",
+      "check": "F7 exactly one 10-s row",
+      "pass": true
+    },
+    {
+      "check_id": "D05",
+      "check": "F7 cohort cycles == 2521",
+      "pass": true
+    },
+    {
+      "check_id": "D06",
+      "check": "F7 batteries == 34",
+      "pass": true
+    },
+    {
+      "check_id": "D07",
+      "check": "F7 skipped_cycles == 0",
+      "pass": true
+    },
+    {
+      "check_id": "D08",
+      "check": "F7 future_support_max_s == 0",
+      "pass": true
+    },
+    {
+      "check_id": "D09",
+      "check": "F7 timing/history/raw-sample metrics match audited values",
+      "pass": true
+    },
+    {
+      "check_id": "D10",
+      "check": "Final cohort has 2521 unique cycle_uid",
+      "pass": true
+    }
+  ],
+  "DOWNSTREAM_FINAL_ACCEPTANCE": true
+}

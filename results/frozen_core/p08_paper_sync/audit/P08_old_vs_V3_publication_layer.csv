@@ -1,0 +1,10 @@
+﻿field,old_value,new_value,status
+Extra historical support — p95,9.405999999999947,9.25,UPDATED
+Extra historical support — max,10.375,9.985,UPDATED
+ESP32: Incremental inference-sketch Flash footprint,59.828125,63.3125,UPDATED
+ESP32: Standalone RF inference — mean,45.118,62.302,UPDATED
+ESP32: Feature extraction — mean,412.285,522.299,UPDATED
+ESP32: Total post-acquisition compute — mean,458.043,584.141,UPDATED
+OOD penalty: Experiment Group,2.787365318523612,3.808915184767535,UPDATED
+OOD penalty: Load Family,4.202291882160757,5.280619504653534,UPDATED
+OOD penalty: Temperature Family,9.475387527563102,6.996524763109244,UPDATED

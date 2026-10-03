@@ -1,0 +1,6 @@
+﻿Analysis,Model,Estimate,CI low,CI high,Unit,Interpretation constraint
+Causal same-endpoint 10 s − 300 s,RF20x7,0.1944981913855023,-0.1628181114663574,0.5256001959230977,pp,CI includes 0; do not claim equivalence.
+Causal same-endpoint 10 s − 300 s,RF150,0.1611133842837622,-0.2215392726365002,0.5286614687312698,pp,CI includes 0; do not claim equivalence.
+Online 10 s RF20x7 − RF150,Paired,-0.1058897451367907,-0.4783929043389975,0.2745985723171296,pp,No clear mean difference; no equivalence claim.
+Training-seed macro MAE mean ± SD,RF20x7,7.134578043336447,6.996050376626407,7.273105710046487,pp,Displayed interval is mean ± SD across 5 frozen seeds; not a confidence interval.
+Training-seed macro MAE mean ± SD,RF150,7.173616440682733,7.138775372546683,7.208457508818783,pp,Displayed interval is mean ± SD across 5 frozen seeds; not a confidence interval.

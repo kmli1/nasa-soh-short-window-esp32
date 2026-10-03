@@ -1,0 +1,11 @@
+﻿check_id,check,pass
+D01,F5 acceptance validated,True
+D02,F2 recomputed from final provenance,True
+D03,F7 exact source SHA256 matches contract,True
+D04,F7 exactly one 10-s row,True
+D05,F7 cohort cycles == 2521,True
+D06,F7 batteries == 34,True
+D07,F7 skipped_cycles == 0,True
+D08,F7 future_support_max_s == 0,True
+D09,F7 timing/history/raw-sample metrics match audited values,True
+D10,Final cohort has 2521 unique cycle_uid,True

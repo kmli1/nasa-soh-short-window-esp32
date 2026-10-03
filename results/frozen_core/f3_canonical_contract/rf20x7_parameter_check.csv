@@ -1,0 +1,6 @@
+﻿parameter,expected,observed,pass
+model__n_estimators,20,20,True
+model__max_depth,7,7,True
+model__max_features,sqrt,sqrt,True
+model__min_samples_leaf,2,2,True
+model__random_state,42,42,True

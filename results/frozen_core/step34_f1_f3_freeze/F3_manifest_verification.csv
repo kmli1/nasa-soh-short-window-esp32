@@ -1,0 +1,12 @@
+﻿filename,size_match,sha_match,pass
+canonical_float64_seed42_lobo_by_battery.csv,True,True,True
+canonical_float64_tree_exact_match.csv,True,True,True
+canonical_lobo_vs_frozen_comparison.csv,True,True,True
+canonical_training_environment.json,True,True,True
+environment_repro_exact.yml,True,True,True
+final_online_training_canonical_v2.npz,True,True,True
+legacy_float32_target_tree_match.csv,True,True,True
+README_CANONICAL_TRAINING_CONTRACT.txt,True,True,True
+requirements_repro_exact.txt,True,True,True
+rf20x7_parameter_check.csv,True,True,True
+target_precision_audit.csv,True,True,True

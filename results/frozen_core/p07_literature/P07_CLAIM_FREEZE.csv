@@ -1,0 +1,11 @@
+﻿claim_id,status,do_not_claim,reason,safe_substitute
+F01,BLOCK,First partial-discharge SOH estimation,Prior literature already contains partial charge/discharge and partial-voltage SOH estimation.,"Our contribution is a fixed nominal 10-s causal observation protocol, not partial observation itself."
+F02,BLOCK,First short-window SOH estimation,Prior work uses fixed/adaptive windows from tens of seconds to many minutes/hours.,The study evaluates an unusually constrained fixed 10-s nominal observation budget.
+F03,BLOCK,First unseen-battery validation,"Battery-disjoint, LOOCV and unseen-cell protocols already exist.",We use strict every-battery LOBO across a 34-battery cohort.
+F04,BLOCK,First cross-condition / unseen-condition SOH study,"Prior work evaluates new discharge profiles, rates, depths, domains or target conditions.",We use adaptation-free condition-family holdout and quantify degradation against a matched unseen-battery reference.
+F05,BLOCK,First TinyML SOH estimator,Prior TinyML SOH studies exist.,Embedded deployment is one component of a joint short-window/generalization/OOD protocol.
+F06,BLOCK,First SOH model on a real MCU,"STM32, PSoC and other MCU implementations already exist.",We report physical ESP32-C6 execution under our frozen model/protocol.
+F07,BLOCK,First tree-based SOH estimator on MCU,Automotive-MCU LightGBM deployment has been reported.,We deploy a compact RF20x7 model and report its measured ESP32-C6 cost.
+F08,BLOCK,First Flash/RAM/latency reporting for embedded SOH,"Previous embedded studies quantify memory, execution cycles, Flash/RAM or latency.",We report the exact scope of our own Flash and on-device timing measurements.
+F09,BLOCK,First PC-to-MCU numerical parity,Output-level host/device agreement has been reported previously.,We report granular 44-feature plus prediction parity on 18 frozen vectors.
+F10,BLOCK,Prior embedded SOH requires full cycles or fixed-length input,Variable-length partial-charge TinyML SOH has been reported.,Our observation is fixed in physical time (10 s) and uses causal V/I/T rather than ICA/voltage-defined sequences.

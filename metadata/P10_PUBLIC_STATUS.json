@@ -1,0 +1,9 @@
+{
+  "schema": "P10_PUBLIC_STATUS_V1",
+  "P10_PASS": true,
+  "SUBMISSION_READY": true,
+  "code_license": "MIT",
+  "content_license": "CC-BY-4.0",
+  "repository_url": "https://github.com/kmli1/nasa-soh-short-window-esp32",
+  "version": "0.3.0-evidence-v3"
+}

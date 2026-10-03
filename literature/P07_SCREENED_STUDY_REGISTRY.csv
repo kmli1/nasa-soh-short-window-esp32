@@ -1,0 +1,31 @@
+﻿study_key,screened_label,tracks,screened,in_core_matrix,role,note
+Ng_2014,Ng et al. 2014,B/C,True,True,core_comparator,Full comparison row is preserved in P07_CORE_LITERATURE_MATRIX.csv.
+Ozkurt_2016,Ozkurt et al. 2016,D historical,True,True,core_comparator,Full comparison row is preserved in P07_CORE_LITERATURE_MATRIX.csv.
+Chen_2018,Chen et al. 2018,A,True,True,core_comparator,Full comparison row is preserved in P07_CORE_LITERATURE_MATRIX.csv.
+Feng_2019,Feng et al. 2019 partial-charging SVM,A/B,True,False,screened_supporting_study,Screened during P07 saturation review; retained in coverage registry so the study is not silently omitted. Use the original paper for bibliographic title/DOI details.
+Meng_2019,Meng et al. 2019 partial charging voltage,A/B,True,False,screened_supporting_study,Screened during P07 saturation review; retained in coverage registry so the study is not silently omitted. Use the original paper for bibliographic title/DOI details.
+Crocioni_2020,Crocioni et al. 2020,A/B/D,True,True,core_comparator,Full comparison row is preserved in P07_CORE_LITERATURE_MATRIX.csv.
+Bavand_2022,Bavand et al. 2022,A,True,True,core_comparator,Full comparison row is preserved in P07_CORE_LITERATURE_MATRIX.csv.
+Yang_2022,Yang et al. 2022 CNN+RF partial DoD,A,True,True,core_comparator,Full comparison row is preserved in P07_CORE_LITERATURE_MATRIX.csv.
+Wei_2022,Wei et al. 2022 heavily-partial charging,A/B,True,False,screened_supporting_study,Screened during P07 saturation review; retained in coverage registry so the study is not silently omitted. Use the original paper for bibliographic title/DOI details.
+Ezemobi_2022,Ezemobi et al. 2022,A/B/C/D,True,True,core_comparator,Full comparison row is preserved in P07_CORE_LITERATURE_MATRIX.csv.
+Liu_2023,Liu et al. 2023 dynamic/wide-temperature prognosis,C,True,True,core_comparator,Full comparison row is preserved in P07_CORE_LITERATURE_MATRIX.csv.
+Tan_2024,Tan et al. 2024,B/C,True,True,core_comparator,Full comparison row is preserved in P07_CORE_LITERATURE_MATRIX.csv.
+Giazitzis_2024,Giazitzis et al. 2024 MELECON,A/B/D,True,True,core_comparator,Full comparison row is preserved in P07_CORE_LITERATURE_MATRIX.csv.
+Fiorentis_2025,Fiorentis & Enache 2025,A/B,True,True,core_comparator,Full comparison row is preserved in P07_CORE_LITERATURE_MATRIX.csv.
+Chen_2025,Chen et al. 2025 GPR cross-condition,B/C,True,True,core_comparator,Full comparison row is preserved in P07_CORE_LITERATURE_MATRIX.csv.
+Du_2025,Du et al. 2025 self-adaptive pack SOH,C/D,True,True,core_comparator,Full comparison row is preserved in P07_CORE_LITERATURE_MATRIX.csv.
+Alamin_2025,Alamin et al. 2025 automotive MCU LightGBM,A/D,True,True,core_comparator,Full comparison row is preserved in P07_CORE_LITERATURE_MATRIX.csv.
+Giazitzis_EIS_2025,Giazitzis et al. 2025 EIS TinyML,B/D,True,True,core_comparator,Full comparison row is preserved in P07_CORE_LITERATURE_MATRIX.csv.
+Salem_2026,Salem et al. 2026 short-term discharge,A,True,True,core_comparator,Full comparison row is preserved in P07_CORE_LITERATURE_MATRIX.csv.
+Huang_2026,Huang et al. 2026 partial-voltage LOOCV,A/B,True,True,core_comparator,Full comparison row is preserved in P07_CORE_LITERATURE_MATRIX.csv.
+BATWO_2026,BATWO 2026,A/C,True,True,core_comparator,Full comparison row is preserved in P07_CORE_LITERATURE_MATRIX.csv.
+Ma_2026,Ma et al. 2026 physics-informed transfer,B/C,True,False,screened_supporting_study,Screened during P07 saturation review; retained in coverage registry so the study is not silently omitted. Use the original paper for bibliographic title/DOI details.
+Mohamud_2026,Mohamud et al. 2026 BiLSTM-RF,B,True,False,screened_supporting_study,Screened during P07 saturation review; retained in coverage registry so the study is not silently omitted. Use the original paper for bibliographic title/DOI details.
+Wang_2026,Wang et al. 2026 resource-constrained SL-AgentNet,A/B/D,True,True,core_comparator,Full comparison row is preserved in P07_CORE_LITERATURE_MATRIX.csv.
+Lu_2026,Lu et al. 2026 lightweight partial-discharge SOH,A/D,True,True,core_comparator,Full comparison row is preserved in P07_CORE_LITERATURE_MATRIX.csv.
+Giazitzis_2026,Giazitzis et al. 2026 embedded strategy,A/B/D,True,True,core_comparator,Full comparison row is preserved in P07_CORE_LITERATURE_MATRIX.csv.
+Ali_2026,Ali et al. 2026 LOCO RUL/SOH,B,True,False,screened_supporting_study,Screened during P07 saturation review; retained in coverage registry so the study is not silently omitted. Use the original paper for bibliographic title/DOI details.
+SongZhao_2026,Song & Zhao 2026 DRT-MSFCNN,B/C,True,False,screened_supporting_study,Screened during P07 saturation review; retained in coverage registry so the study is not silently omitted. Use the original paper for bibliographic title/DOI details.
+Yue_2026,Yue et al. 2026 contrastive transfer partial charging,A/B/C,True,False,screened_supporting_study,Screened during P07 saturation review; retained in coverage registry so the study is not silently omitted. Use the original paper for bibliographic title/DOI details.
+Zhang_2026,Zhang et al. 2026 GFF-LSTM,B,True,False,screened_supporting_study,Screened during P07 saturation review; retained in coverage registry so the study is not silently omitted. Use the original paper for bibliographic title/DOI details.

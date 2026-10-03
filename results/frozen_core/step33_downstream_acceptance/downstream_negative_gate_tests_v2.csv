@@ -1,0 +1,11 @@
+﻿negative_gate,rejected_as_required
+missing acceptance,True
+empty acceptance,True
+wrong protocol,True
+wrong duration,True
+F5 false,True
+F2 false,True
+F7 false,True
+stale F7 source hash,True
+stale F7 contract hash,True
+empty check list,True

@@ -1,0 +1,13 @@
+﻿field,known_value,status
+MCU,ESP32-C6FH4 QFN32 rev 0.2,known
+CPU frequency,160 MHz,known
+crystal,40 MHz,known
+Arduino core,3.3.5,known
+board profile,ESP32C6 Dev Module,known
+USB CDC,Enabled,known
+USB mode,Hardware CDC/JTAG,known
+IDE / arduino-cli exact version,,needs_saved_build_log_or_manual_fill
+compiler/toolchain exact version,,needs_saved_build_log_or_manual_fill
+FQBN / exact board options,,needs_saved_build_log_or_manual_fill
+optimization setting,,needs_saved_build_log_or_manual_fill
+partition scheme,,needs_saved_build_log_or_manual_fill

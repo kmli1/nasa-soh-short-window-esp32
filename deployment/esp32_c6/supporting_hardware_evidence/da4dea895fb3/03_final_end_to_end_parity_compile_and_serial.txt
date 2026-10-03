@@ -1,0 +1,57 @@
+NASA SOH FINAL ONLINE RF20x7 — END-TO-END PARITY
+Evidence origin: verbatim transcription of Arduino IDE / Serial Monitor output supplied by the user on 2026-09-30.
+Not automatically captured from the IDE.
+
+COMPILE
+Sketch uses 341762 bytes (26%) of program storage space. Maximum is 1310720 bytes.
+Global variables use 14364 bytes (4%) of dynamic memory, leaving 313316 bytes for local variables. Maximum is 327680 bytes.
+
+DEVICE
+Chip type: ESP32-C6FH4 (QFN32) (revision v0.2)
+Features: Wi-Fi 6, BT 5 (LE), IEEE802.15.4, Single Core + LP Core, 160MHz
+Crystal frequency: 40MHz
+USB mode: USB-Serial/JTAG
+
+SERIAL
+FINAL ONLINE RF20x7 - END-TO-END PARITY
+
+TEST 00 | Features 44/44 | maxFeatDiff 0 | pred 82.591201782 | expected 82.591201782 | predDiff 0 | PASS
+TEST 01 | Features 44/44 | maxFeatDiff 0 | pred 87.611122131 | expected 87.611122131 | predDiff 0 | PASS
+TEST 02 | Features 44/44 | maxFeatDiff 1.08684617e-10 | pred 69.213882446 | expected 69.213882446 | predDiff 0 | PASS
+TEST 03 | Features 44/44 | maxFeatDiff 0 | pred 73.918830872 | expected 73.918830872 | predDiff 0 | PASS
+TEST 04 | Features 44/44 | maxFeatDiff 0 | pred 89.737442017 | expected 89.737442017 | predDiff 0 | PASS
+TEST 05 | Features 44/44 | maxFeatDiff 0 | pred 90.210937500 | expected 90.210937500 | predDiff 0 | PASS
+TEST 06 | Features 44/44 | maxFeatDiff 0 | pred 84.283653259 | expected 84.283653259 | predDiff 0 | PASS
+TEST 07 | Features 44/44 | maxFeatDiff 0 | pred 87.882003784 | expected 87.882003784 | predDiff 0 | PASS
+TEST 08 | Features 44/44 | maxFeatDiff 0 | pred 84.250373840 | expected 84.250373840 | predDiff 0 | PASS
+TEST 09 | Features 44/44 | maxFeatDiff 0 | pred 87.780899048 | expected 87.780899048 | predDiff 0 | PASS
+TEST 10 | Features 44/44 | maxFeatDiff 0 | pred 58.720100403 | expected 58.720100403 | predDiff 0 | PASS
+TEST 11 | Features 44/44 | maxFeatDiff 0 | pred 58.716522217 | expected 58.716522217 | predDiff 0 | PASS
+TEST 12 | Features 44/44 | maxFeatDiff 4.66116035e-11 | pred 53.346321106 | expected 53.346321106 | predDiff 0 | PASS
+TEST 13 | Features 44/44 | maxFeatDiff 0 | pred 57.779029846 | expected 57.779029846 | predDiff 0 | PASS
+TEST 14 | Features 44/44 | maxFeatDiff 0 | pred 44.309093475 | expected 44.309093475 | predDiff 0 | PASS
+TEST 15 | Features 44/44 | maxFeatDiff 0 | pred 57.533714294 | expected 57.533714294 | predDiff 0 | PASS
+TEST 16 | Features 44/44 | maxFeatDiff 0 | pred 68.964782715 | expected 68.964782715 | predDiff 0 | PASS
+TEST 17 | Features 44/44 | maxFeatDiff 0 | pred 79.201995850 | expected 79.201995850 | predDiff 0 | PASS
+
+PARITY SUMMARY
+Vector pass count: 18/18
+Feature pass count total: 792/792
+Mean feature abs diff: 1.96081086272e-13
+Global max feature abs diff: 1.08684616862e-10
+Global max prediction abs diff pp: 0
+FINAL ONLINE END-TO-END PARITY PASSED
+
+POST-ACQUISITION COMPUTE BENCHMARK
+Repeats: 1000
+Mean feature extraction us: 522.299000
+Feature extraction min-max us: 518 527
+Mean RF inference us: 61.842000
+RF inference min-max us: 60 70
+Mean total post-acquisition us: 584.141000
+Total min-max us: 579 588
+Heap before: 434552
+Heap after: 434552
+Heap delta: 0
+Minimum free heap: 429796
+Ignore sink: 90850.648438

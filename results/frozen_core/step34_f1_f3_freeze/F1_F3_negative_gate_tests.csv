@@ -1,0 +1,7 @@
+﻿negative_gate,rejected_as_required
+missing acceptance,True
+empty acceptance,True
+wrong protocol,True
+final acceptance false,True
+one failed check,True
+empty checks,True

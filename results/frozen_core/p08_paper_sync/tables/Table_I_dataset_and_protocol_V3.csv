@@ -1,0 +1,24 @@
+﻿Item,Value,Unit
+Batteries,34,battery
+Final online cohort,2521,cycle
+Input channels,"Voltage, current, temperature",V/I/T
+Extracted features,44,feature
+Target definition,Capacity / 2.0 Ah × 100,SOH (%)
+Headline split,Strict leave-one-battery-out,LOBO
+Protocol ID,ONLINE_FIXED_START_CAUSAL_10S_V1,
+Stabilization interval,5.0,s
+Nominal causal observation interval,10.0,s
+Future support — max,0.0,s
+Raw samples in nominal interval — median,1.0,sample
+Raw samples in nominal interval — minimum,1,sample
+Raw samples in nominal interval — p95,2.0,sample
+Interpolated grid fraction — mean,0.9089827269121198,fraction
+Extra historical support — median,3.375,s
+Extra historical support — p95,9.25,s
+Extra historical support — max,9.985,s
+Decision delay after nominal target — median,6.812000000000005,s
+Decision delay after nominal target — p95,14.015999999999998,s
+Decision delay after nominal target — max,15.140999999999998,s
+Active onset → decision — median,21.812,s
+Active onset → decision — p95,29.016,s
+Active onset → decision — max,30.141,s

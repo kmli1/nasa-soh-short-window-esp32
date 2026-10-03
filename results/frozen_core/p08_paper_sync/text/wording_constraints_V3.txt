@@ -1,0 +1,32 @@
+PAPER V3 — REQUIRED INTERPRETATION CONSTRAINTS
+
+1. Treat 7.096415 pp as the strict unseen-battery LOBO generalization estimate for the architecture/protocol, not as the training error of the final all-data deployment fit.
+
+2. Describe 10 s as the nominal causal observation interval after 5 s stabilization. Do not present 10 s as total decision time. Median active-onset-to-decision time is 21.812 s.
+
+3. State that the nominal 10-s interval contains a median of 1 raw sample; 11 interpolated grid points are not 11 independent physical measurements.
+
+4. Same-endpoint 10-s versus 300-s CIs include zero. Do not claim equivalence.
+
+5. RF20x7 versus RF150 paired CI includes zero. State no clear mean difference; do not claim equivalence.
+
+6. Temperature OOD must use the corrected matched 31-cell analysis: penalty 6.996525 pp, 95% CI [4.116840, 9.712289] pp.
+
+7. Battery bootstrap resamples batteries and does not retrain models inside each bootstrap replicate.
+
+8. Square-wave interpretation:
+   - 111 cycles total.
+   - 107 windows contain one raw observation inside the nominal interval.
+   - 4 contain two.
+   - Waveform aliasing or interpolation-induced distortion cannot be excluded.
+   - Do not claim that interpolated active-fraction proves physical waveform activity.
+
+9. ESP32-C6 Flash: 63.3125 KiB is incremental inference-sketch Flash footprint, not total firmware size.
+
+10. Additional static/global compile delta of 0 B is not total RAM cost.
+
+11. 584.141 µs is post-acquisition feature + RF compute. It excludes sensing, acquisition, and resampling.
+
+12. 18-vector / 792-feature device parity is software numerical parity on retained vectors, not physical ADC validation.
+
+13. Exact build identity remains PARTIAL. Known board/core fields may be reported; unrecovered IDE/compiler/FQBN/optimization/partition fields must not be guessed.

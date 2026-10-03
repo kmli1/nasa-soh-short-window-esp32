@@ -1,0 +1,6 @@
+﻿test,rejected_as_required
+wrong source hash,True
+duplicate 10-s row,True
+missing 10-s row,True
+wrong cohort count,True
+wrong timing metric,True

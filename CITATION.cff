@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "Resource-Aware Short-Window State-of-Health Estimation for Lithium-Ion Batteries"
+message: "If you use this research artifact, please cite it using the metadata in this file."
+type: software
+version: "0.3.0-evidence-v3"
+date-released: 2026-10-03
+repository-code: "https://github.com/kmli1/nasa-soh-short-window-esp32"
+license: "MIT"
+authors:
+  - given-names: "Kamil"
+    family-names: "İşlek"
+    orcid: "https://orcid.org/0009-0000-6540-8718"
+keywords:
+  - "lithium-ion battery"
+  - "state of health"
+  - "short-window estimation"
+  - "TinyML"
+  - "ESP32-C6"
+  - "leave-one-battery-out"
+  - "out-of-distribution"

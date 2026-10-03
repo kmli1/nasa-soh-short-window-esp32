@@ -1,0 +1,608 @@
+{
+  "schema_version": "NASA_SOH_V3_CLAIM_REGISTRY_V1",
+  "generated_utc": "2026-10-02T11:26:53.682417+00:00",
+  "protocol_id": "ONLINE_FIXED_START_CAUSAL_10S_V1",
+  "upstream": {
+    "step32_sha256": "ae6c1d25f00d9f2cb441e988c8790b0d56c56f3d1edd8186c2135213fcceb842",
+    "step33_sha256": "a97dfde54359d9ecb5d5d2348429a6f25b0bb0f1c9b54ea29a74c414fd77e162",
+    "step34_sha256": "6563ea4e87b61149f111356edcc0662861eb01fbf20bbb3fb59ec1f39669c42b"
+  },
+  "claims": [
+    {
+      "claim_id": "protocol_id",
+      "paper_section": "Methods",
+      "claim_type": "identity",
+      "value": "ONLINE_FIXED_START_CAUSAL_10S_V1",
+      "unit": "",
+      "status": "FINAL",
+      "evidence": "Step32+Step33",
+      "wording_rule": "Use exact protocol identifier.",
+      "notes": ""
+    },
+    {
+      "claim_id": "final_online_cohort_cycles",
+      "paper_section": "Methods",
+      "claim_type": "cohort",
+      "value": 2521,
+      "unit": "cycles",
+      "status": "FINAL",
+      "evidence": "Step32+Step34",
+      "wording_rule": "Final harmonized online cohort; not the whole NASA dataset.",
+      "notes": ""
+    },
+    {
+      "claim_id": "final_online_cohort_batteries",
+      "paper_section": "Methods",
+      "claim_type": "cohort",
+      "value": 34,
+      "unit": "batteries",
+      "status": "FINAL",
+      "evidence": "Step32+Step34",
+      "wording_rule": "Use battery-level wording.",
+      "notes": ""
+    },
+    {
+      "claim_id": "nominal_observation_interval",
+      "paper_section": "Methods",
+      "claim_type": "timing",
+      "value": 10.0,
+      "unit": "s",
+      "status": "FINAL",
+      "evidence": "Step33/F7",
+      "wording_rule": "Nominal causal observation interval; not total decision time.",
+      "notes": ""
+    },
+    {
+      "claim_id": "stabilization_interval",
+      "paper_section": "Methods",
+      "claim_type": "timing",
+      "value": 5.0,
+      "unit": "s",
+      "status": "FINAL",
+      "evidence": "Protocol contract",
+      "wording_rule": "State separately from the 10-s nominal interval.",
+      "notes": ""
+    },
+    {
+      "claim_id": "decision_delay_median",
+      "paper_section": "Methods/Timing",
+      "claim_type": "timing",
+      "value": 6.812,
+      "unit": "s",
+      "status": "FINAL",
+      "evidence": "Step33/F7",
+      "wording_rule": "median wait after nominal target time.",
+      "notes": ""
+    },
+    {
+      "claim_id": "decision_delay_p95",
+      "paper_section": "Methods/Timing",
+      "claim_type": "timing",
+      "value": 14.016,
+      "unit": "s",
+      "status": "FINAL",
+      "evidence": "Step33/F7",
+      "wording_rule": "p95 wait after nominal target time.",
+      "notes": ""
+    },
+    {
+      "claim_id": "decision_delay_max",
+      "paper_section": "Methods/Timing",
+      "claim_type": "timing",
+      "value": 15.141,
+      "unit": "s",
+      "status": "FINAL",
+      "evidence": "Step33/F7",
+      "wording_rule": "max wait after nominal target time.",
+      "notes": ""
+    },
+    {
+      "claim_id": "active_onset_to_decision_median",
+      "paper_section": "Methods/Timing",
+      "claim_type": "timing",
+      "value": 21.812,
+      "unit": "s",
+      "status": "FINAL",
+      "evidence": "Step33/F7",
+      "wording_rule": "median time from detected active-discharge onset to decision; excludes post-acquisition compute.",
+      "notes": ""
+    },
+    {
+      "claim_id": "active_onset_to_decision_p95",
+      "paper_section": "Methods/Timing",
+      "claim_type": "timing",
+      "value": 29.016,
+      "unit": "s",
+      "status": "FINAL",
+      "evidence": "Step33/F7",
+      "wording_rule": "p95 time from detected active-discharge onset to decision; excludes post-acquisition compute.",
+      "notes": ""
+    },
+    {
+      "claim_id": "active_onset_to_decision_max",
+      "paper_section": "Methods/Timing",
+      "claim_type": "timing",
+      "value": 30.141,
+      "unit": "s",
+      "status": "FINAL",
+      "evidence": "Step33/F7",
+      "wording_rule": "max time from detected active-discharge onset to decision; excludes post-acquisition compute.",
+      "notes": ""
+    },
+    {
+      "claim_id": "nominal_interval_raw_sample_median",
+      "paper_section": "Methods/Limitations",
+      "claim_type": "sampling",
+      "value": 1.0,
+      "unit": "raw samples",
+      "status": "FINAL",
+      "evidence": "Step33/F7",
+      "wording_rule": "11 grid points do not mean 11 independent raw measurements.",
+      "notes": ""
+    },
+    {
+      "claim_id": "extra_history_p95",
+      "paper_section": "Methods/Timing",
+      "claim_type": "sampling",
+      "value": 9.25,
+      "unit": "s",
+      "status": "FINAL",
+      "evidence": "Step33/F7",
+      "wording_rule": "Historical support before nominal interval.",
+      "notes": ""
+    },
+    {
+      "claim_id": "extra_history_max",
+      "paper_section": "Methods/Timing",
+      "claim_type": "sampling",
+      "value": 9.985,
+      "unit": "s",
+      "status": "FINAL",
+      "evidence": "Step33/F7",
+      "wording_rule": "Historical support before nominal interval.",
+      "notes": ""
+    },
+    {
+      "claim_id": "raw_to_44_max_abs_feature_diff",
+      "paper_section": "Methods/Reproducibility",
+      "claim_type": "numerical_parity",
+      "value": 0.0,
+      "unit": "",
+      "status": "FINAL",
+      "evidence": "Step32/F5",
+      "wording_rule": "Exact parity for frozen F5 run.",
+      "notes": ""
+    },
+    {
+      "claim_id": "future_support_max",
+      "paper_section": "Methods/Reproducibility",
+      "claim_type": "causality",
+      "value": 0.0,
+      "unit": "s",
+      "status": "FINAL",
+      "evidence": "Step32/F5",
+      "wording_rule": "Stored future-support maximum.",
+      "notes": ""
+    },
+    {
+      "claim_id": "future_perturbation_test_scope",
+      "paper_section": "Methods/Reproducibility",
+      "claim_type": "scope",
+      "value": 50,
+      "unit": "cycles",
+      "status": "FINAL_LIMITED",
+      "evidence": "Step32/F5",
+      "wording_rule": "Deterministic 50-cycle negative test; never imply all 2521 cycles.",
+      "notes": ""
+    },
+    {
+      "claim_id": "rf20_strict_lobo_macro_mae",
+      "paper_section": "Results",
+      "claim_type": "generalization",
+      "value": 7.096415349426007,
+      "unit": "pp",
+      "status": "FINAL",
+      "evidence": "Step34/F3",
+      "wording_rule": "Headline strict unseen-battery generalization estimate for architecture/protocol.",
+      "notes": ""
+    },
+    {
+      "claim_id": "rf150_strict_lobo_macro_mae",
+      "paper_section": "Results",
+      "claim_type": "generalization",
+      "value": 7.202305,
+      "unit": "pp",
+      "status": "FINAL",
+      "evidence": "Frozen online result",
+      "wording_rule": "Reference model; do not claim equivalence.",
+      "notes": ""
+    },
+    {
+      "claim_id": "rf20_temperature_condition_mae",
+      "paper_section": "Results/OOD",
+      "claim_type": "temperature_shift",
+      "value": 13.99005195904802,
+      "unit": "pp",
+      "status": "FINAL",
+      "evidence": "Step34/F1",
+      "wording_rule": "31-cell matched-pool analysis.",
+      "notes": ""
+    },
+    {
+      "claim_id": "rf20_temperature_matched_lobo_ref",
+      "paper_section": "Results/OOD",
+      "claim_type": "temperature_shift",
+      "value": 6.993527195938773,
+      "unit": "pp",
+      "status": "FINAL",
+      "evidence": "Step34/F1",
+      "wording_rule": "Matched 31-cell strict LOBO reference.",
+      "notes": ""
+    },
+    {
+      "claim_id": "rf20_temperature_penalty",
+      "paper_section": "Results/OOD",
+      "claim_type": "temperature_shift",
+      "value": 6.996524763109244,
+      "unit": "pp",
+      "status": "FINAL",
+      "evidence": "Step34/F1",
+      "wording_rule": "Supersedes old +6.736710 pp.",
+      "notes": ""
+    },
+    {
+      "claim_id": "rf20_temperature_penalty_ci95_low",
+      "paper_section": "Results/OOD",
+      "claim_type": "temperature_shift",
+      "value": 4.1168398024248685,
+      "unit": "pp",
+      "status": "FINAL",
+      "evidence": "Step34/F1 bootstrap",
+      "wording_rule": "Battery-level bootstrap; model not retrained.",
+      "notes": ""
+    },
+    {
+      "claim_id": "rf20_temperature_penalty_ci95_high",
+      "paper_section": "Results/OOD",
+      "claim_type": "temperature_shift",
+      "value": 9.712288932257596,
+      "unit": "pp",
+      "status": "FINAL",
+      "evidence": "Step34/F1 bootstrap",
+      "wording_rule": "Battery-level bootstrap; model not retrained.",
+      "notes": ""
+    },
+    {
+      "claim_id": "rf150_temperature_penalty",
+      "paper_section": "Results/OOD",
+      "claim_type": "temperature_shift",
+      "value": 5.998515477259362,
+      "unit": "pp",
+      "status": "FINAL",
+      "evidence": "Step34/F1",
+      "wording_rule": "Cohort-specific exploratory comparison.",
+      "notes": ""
+    },
+    {
+      "claim_id": "square_wave_cycles",
+      "paper_section": "Results/Failure analysis",
+      "claim_type": "sampling_diagnostic",
+      "value": 111,
+      "unit": "cycles",
+      "status": "FINAL",
+      "evidence": "Step33/F2",
+      "wording_rule": "Use with raw-sample limitation.",
+      "notes": ""
+    },
+    {
+      "claim_id": "square_wave_windows_with_one_raw_sample",
+      "paper_section": "Results/Failure analysis",
+      "claim_type": "sampling_diagnostic",
+      "value": 107,
+      "unit": "cycles",
+      "status": "FINAL",
+      "evidence": "Step33/F2",
+      "wording_rule": "Aliasing/interpolation distortion cannot be excluded.",
+      "notes": ""
+    },
+    {
+      "claim_id": "square_wave_windows_with_two_raw_samples",
+      "paper_section": "Results/Failure analysis",
+      "claim_type": "sampling_diagnostic",
+      "value": 4,
+      "unit": "cycles",
+      "status": "FINAL",
+      "evidence": "Step33/F2",
+      "wording_rule": "Aliasing/interpolation distortion cannot be excluded.",
+      "notes": ""
+    },
+    {
+      "claim_id": "canonical_X_dtype",
+      "paper_section": "Methods/Reproducibility",
+      "claim_type": "dtype",
+      "value": "float32",
+      "unit": "",
+      "status": "FINAL",
+      "evidence": "Step34/F3",
+      "wording_rule": "Canonical X.",
+      "notes": ""
+    },
+    {
+      "claim_id": "canonical_y_dtype",
+      "paper_section": "Methods/Reproducibility",
+      "claim_type": "dtype",
+      "value": "float64",
+      "unit": "",
+      "status": "FINAL",
+      "evidence": "Step34/F3",
+      "wording_rule": "Canonical y; do not use legacy float32 y as canonical retraining target.",
+      "notes": ""
+    },
+    {
+      "claim_id": "canonical_tree_match",
+      "paper_section": "Methods/Reproducibility",
+      "claim_type": "model_reconstruction",
+      "value": "20/20",
+      "unit": "trees",
+      "status": "FINAL",
+      "evidence": "Step34/F3",
+      "wording_rule": "Canonical target reproduces all final trees.",
+      "notes": ""
+    },
+    {
+      "claim_id": "legacy_float32_tree_match",
+      "paper_section": "Methods/Reproducibility",
+      "claim_type": "model_reconstruction",
+      "value": "0/20",
+      "unit": "trees",
+      "status": "FINAL",
+      "evidence": "Step34/F3",
+      "wording_rule": "Use only to explain target precision requirement.",
+      "notes": ""
+    },
+    {
+      "claim_id": "canonical_npz_sha256",
+      "paper_section": "Methods/Reproducibility",
+      "claim_type": "artifact_identity",
+      "value": "4472effc044206968c759c3f133d8216efb6dec7abae02074972f15951318962",
+      "unit": "",
+      "status": "FINAL",
+      "evidence": "Step34/F3",
+      "wording_rule": "Exact canonical artifact identity.",
+      "notes": ""
+    },
+    {
+      "claim_id": "sklearn_version",
+      "paper_section": "Methods/Reproducibility",
+      "claim_type": "environment",
+      "value": "1.6.1",
+      "unit": "",
+      "status": "FINAL",
+      "evidence": "Step34/F3",
+      "wording_rule": "Verified environment.",
+      "notes": ""
+    },
+    {
+      "claim_id": "esp32_standalone_rf_inference_mean",
+      "paper_section": "Embedded Deployment",
+      "claim_type": "hardware_benchmark",
+      "value": 62.302,
+      "unit": "us/inference",
+      "status": "FINAL_LIMITED",
+      "evidence": "D1B retained measurement",
+      "wording_rule": "Fixed-vector RF benchmark; not end-to-end latency.",
+      "notes": ""
+    },
+    {
+      "claim_id": "esp32_feature_plus_rf_post_acquisition",
+      "paper_section": "Embedded Deployment",
+      "claim_type": "hardware_benchmark",
+      "value": 584.141,
+      "unit": "us/window",
+      "status": "FINAL_LIMITED",
+      "evidence": "D1B retained measurement",
+      "wording_rule": "Pre-acquired input; excludes sensing/acquisition/resampling.",
+      "notes": ""
+    },
+    {
+      "claim_id": "esp32_incremental_flash_footprint",
+      "paper_section": "Embedded Deployment",
+      "claim_type": "hardware_resource",
+      "value": 63.3125,
+      "unit": "KiB",
+      "status": "FINAL_LIMITED",
+      "evidence": "D1B retained build record",
+      "wording_rule": "Incremental inference-sketch Flash footprint, not total firmware size.",
+      "notes": ""
+    },
+    {
+      "claim_id": "esp32_extra_static_global_compile_delta",
+      "paper_section": "Embedded Deployment",
+      "claim_type": "hardware_resource",
+      "value": 0,
+      "unit": "B",
+      "status": "FINAL_LIMITED",
+      "evidence": "D1B retained build record",
+      "wording_rule": "Compile delta only; not total RAM cost.",
+      "notes": ""
+    }
+  ],
+  "deprecated_claims": [
+    {
+      "claim": "RF20 temperature penalty",
+      "old_value": "6.736710 pp",
+      "replacement": "6.996524763109244 pp",
+      "reason": "Old 34-cell reference replaced by matched 31-cell reference."
+    },
+    {
+      "claim": "RF20 temperature reference",
+      "old_value": "7.253342 pp",
+      "replacement": "6.993527195938773 pp",
+      "reason": "Use matched 31-cell strict LOBO reference."
+    },
+    {
+      "claim": "RF20 temperature CI",
+      "old_value": "[3.757, 9.619] pp",
+      "replacement": "[4.1168398024248685, 9.712288932257596] pp",
+      "reason": "Old CI is stale after matched-pool correction."
+    },
+    {
+      "claim": "10 min vs 10 s wording",
+      "old_value": "two orders of magnitude",
+      "replacement": "60 times longer than the nominal 10-s interval",
+      "reason": "600/10 = 60."
+    },
+    {
+      "claim": "square-wave interpretation",
+      "old_value": "interpolated activity excludes aliasing",
+      "replacement": "107/111 windows had one raw sample; aliasing/interpolation distortion cannot be excluded",
+      "reason": "Sparse sampling limits physical interpretation."
+    },
+    {
+      "claim": "10-s meaning",
+      "old_value": "total decision time = 10 s",
+      "replacement": "10-s nominal interval; median onset-to-decision = 21.812 s",
+      "reason": "Includes stabilization and wait for next raw sample."
+    },
+    {
+      "claim": "deployed all-data fit",
+      "old_value": "unseen-battery generalization result",
+      "replacement": "7.096415 pp strict LOBO is the generalization estimate; all-data fit is deployed instance",
+      "reason": "Different estimands."
+    }
+  ],
+  "wording_constraints": [
+    {
+      "topic": "10-s protocol",
+      "must_say": "10-s nominal causal observation interval after 5-s stabilization",
+      "must_not_say": "decision is always available exactly 10 s after discharge onset"
+    },
+    {
+      "topic": "sampling",
+      "must_say": "median one raw observation in nominal interval; 11-point grid is interpolated",
+      "must_not_say": "11 grid values are 11 independent measurements"
+    },
+    {
+      "topic": "temperature OOD",
+      "must_say": "matched 31-cell strict reference",
+      "must_not_say": "old 34-cell reference or stale CI"
+    },
+    {
+      "topic": "bootstrap",
+      "must_say": "5000 battery-level resamples; model not retrained",
+      "must_not_say": "full model-training experiment repeated 5000 times"
+    },
+    {
+      "topic": "compact vs full",
+      "must_say": "no clear mean difference where CI includes zero",
+      "must_not_say": "equivalent unless equivalence testing was done"
+    },
+    {
+      "topic": "square wave",
+      "must_say": "aliasing/interpolation-induced distortion cannot be excluded",
+      "must_not_say": "interpolated active fraction proves physical duty cycle"
+    },
+    {
+      "topic": "ESP32 RF timing",
+      "must_say": "fixed-vector standalone RF inference benchmark",
+      "must_not_say": "end-to-end sensing latency"
+    },
+    {
+      "topic": "ESP32 feature+RF",
+      "must_say": "post-acquisition compute on pre-acquired input",
+      "must_not_say": "includes sensing/acquisition/resampling"
+    },
+    {
+      "topic": "Flash",
+      "must_say": "incremental inference-sketch Flash footprint",
+      "must_not_say": "total application binary size"
+    },
+    {
+      "topic": "LOBO",
+      "must_say": "strict unseen-battery generalization estimate for architecture/protocol",
+      "must_not_say": "performance of all-data deployed fit on unseen batteries"
+    }
+  ],
+  "publication_gates": [
+    {
+      "gate_id": "P01",
+      "area": "F5 raw provenance",
+      "status": "PASS",
+      "blocking_for_draft": false,
+      "blocking_for_submission": false,
+      "evidence": "Step32"
+    },
+    {
+      "gate_id": "P02",
+      "area": "F2 square-wave interpretation",
+      "status": "PASS",
+      "blocking_for_draft": false,
+      "blocking_for_submission": false,
+      "evidence": "Step33"
+    },
+    {
+      "gate_id": "P03",
+      "area": "F7 timing source",
+      "status": "PASS",
+      "blocking_for_draft": false,
+      "blocking_for_submission": false,
+      "evidence": "Step33"
+    },
+    {
+      "gate_id": "P04",
+      "area": "F1 matched temperature OOD",
+      "status": "PASS",
+      "blocking_for_draft": false,
+      "blocking_for_submission": false,
+      "evidence": "Step34"
+    },
+    {
+      "gate_id": "P05",
+      "area": "F3 canonical target/environment",
+      "status": "PASS",
+      "blocking_for_draft": false,
+      "blocking_for_submission": false,
+      "evidence": "Step34"
+    },
+    {
+      "gate_id": "P06",
+      "area": "F6 exact build identity",
+      "status": "PARTIAL",
+      "blocking_for_draft": false,
+      "blocking_for_submission": false,
+      "evidence": "Known board/core retained; some exact build fields unrecovered."
+    },
+    {
+      "gate_id": "P07",
+      "area": "Literature matrix / research gap",
+      "status": "OPEN",
+      "blocking_for_draft": false,
+      "blocking_for_submission": true,
+      "evidence": "Complete before final Introduction/Related Work."
+    },
+    {
+      "gate_id": "P08",
+      "area": "Paper V3 text/table/figure synchronization",
+      "status": "OPEN",
+      "blocking_for_draft": false,
+      "blocking_for_submission": true,
+      "evidence": "Next publication step."
+    },
+    {
+      "gate_id": "P09",
+      "area": "Final Freeze V3 package/manifest/clean rebuild",
+      "status": "OPEN",
+      "blocking_for_draft": false,
+      "blocking_for_submission": true,
+      "evidence": "After Paper V3 content freeze."
+    },
+    {
+      "gate_id": "P10",
+      "area": "Author/repository/license metadata",
+      "status": "OPEN",
+      "blocking_for_draft": false,
+      "blocking_for_submission": true,
+      "evidence": "Author input required."
+    }
+  ]
+}

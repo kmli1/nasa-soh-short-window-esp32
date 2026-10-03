@@ -1,0 +1,3 @@
+﻿duration_s,cycles,batteries,skipped_cycles,future_support_max_s,decision_delay_median_s,decision_delay_p95_s,decision_delay_max_s,extra_history_median_s,extra_history_p95_s,extra_history_max_s,raw_inside_median,raw_inside_min,raw_inside_p95,interpolated_fraction_mean
+10,2521,34,0,0.0,6.812000000000005,14.015999999999998,15.140999999999998,3.375,9.25,9.985,1.0,1,2.0,0.9089827269121198
+300,2521,34,0,0.0,4.5,11.75,14.547000000000025,7.297000000000018,12.109000000000009,15.578000000000003,27.0,17,33.0,0.9954165738691997

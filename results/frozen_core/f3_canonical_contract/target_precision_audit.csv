@@ -1,0 +1,2 @@
+﻿rows,features,X_dtype,legacy_npz_y_dtype,canonical_y_dtype,max_abs_target_diff_pp,mean_abs_target_diff_pp,nonzero_rows
+2521,44,float32,float32,float64,3.8132664172962905e-06,1.6608793706599695e-06,2521

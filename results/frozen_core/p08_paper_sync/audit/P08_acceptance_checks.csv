@@ -1,0 +1,13 @@
+﻿check,pass
+table1_extra_history_p95_9p250,True
+table1_extra_history_max_9p985,True
+table2_rf20_7p096415,True
+table3_flash_63p3125,True
+table3_rf_latency_62p302,True
+table3_total_compute_584p141,True
+table4_experiment_penalty,True
+table4_load_penalty,True
+table4_corrected_temperature_penalty,True
+stale_scan_empty,True
+all_five_figures_png,True
+all_figure_files_exist,True

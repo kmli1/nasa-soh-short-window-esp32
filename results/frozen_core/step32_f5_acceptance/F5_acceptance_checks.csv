@@ -1,0 +1,21 @@
+﻿group,check_id,check,pass
+global8,F5_G01,2521 cycles have PASS provenance,True
+global8,F5_G02,raw_source_sha256 complete,True
+global8,F5_G03,raw_sample_indices complete,True
+global8,F5_G04,latest_used_timestamp_s complete,True
+global8,F5_G05,raw→44 feature parity <=1e-5 for all cycles,True
+global8,F5_G06,latest-used timestamp never exceeds decision,True
+global8,F5_G07,stored future_support is zero,True
+global8,F5_G08,future perturbation negative test passes,True
+integrity,F5_I01,provenance row count == 2521,True
+integrity,F5_I02,2521 unique cycle_uid,True
+integrity,F5_I03,protocol_id exactly ONLINE_FIXED_START_CAUSAL_10S_V1,True
+integrity,F5_I04,34 unique raw source files,True
+integrity,F5_I05,decision_time_s finite numeric,True
+integrity,F5_I06,future_support_s finite numeric,True
+integrity,F5_I07,feature_max_abs_diff finite numeric,True
+integrity,F5_I08,feature parity CSV has 2521 unique cycle_uid,True
+integrity,F5_I09,provenance/parity cycle_uid sets align exactly,True
+integrity,F5_I10,negative perturbation scope exactly 50 cycles,True
+integrity,F5_I11,negative perturbation cycle_uid unique,True
+integrity,F5_I12,negative perturbation max feature difference == 0,True

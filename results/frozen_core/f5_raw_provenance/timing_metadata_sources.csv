@@ -1,0 +1,7 @@
+﻿field,source,column,found
+decision_time_s,final_manifest,decision_time_s,True
+active_start_time_s,,,False
+decision_delay_s,,,False
+window_start_s,final_manifest,window_start_s,True
+window_end_s,final_manifest,window_end_s,True
+future_support_s,final_manifest,future_support_s,True

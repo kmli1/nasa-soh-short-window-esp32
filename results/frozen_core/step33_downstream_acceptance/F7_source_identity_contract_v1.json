@@ -1,0 +1,11 @@
+{
+  "schema_version": "F7_SOURCE_IDENTITY_V1",
+  "protocol_id": "ONLINE_FIXED_START_CAUSAL_10S_V1",
+  "duration_s": 10.0,
+  "authoritative_source_path": "${USER_HOME}\\Desktop\\battery soh short window\\notebooks\\results\\16_online_fixed_start_causal_validation\\online_fixed_start_protocol_diagnostics.csv",
+  "authoritative_source_sha256": "12605b610b65e8d5bd04041386332d3f607c93eefbcb59b46f7e68c9b45e3e87",
+  "expected_cycles": 2521,
+  "expected_batteries": 34,
+  "expected_skipped_cycles": 0,
+  "note": "The authoritative CSV has no protocol_id column. Protocol identity is bound externally by this contract to the exact source SHA256, the 10-s duration row, cohort counts, and audited timing diagnostics."
+}

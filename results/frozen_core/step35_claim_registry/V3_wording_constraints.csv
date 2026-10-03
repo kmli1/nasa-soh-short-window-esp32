@@ -1,0 +1,11 @@
+﻿topic,must_say,must_not_say
+10-s protocol,10-s nominal causal observation interval after 5-s stabilization,decision is always available exactly 10 s after discharge onset
+sampling,median one raw observation in nominal interval; 11-point grid is interpolated,11 grid values are 11 independent measurements
+temperature OOD,matched 31-cell strict reference,old 34-cell reference or stale CI
+bootstrap,5000 battery-level resamples; model not retrained,full model-training experiment repeated 5000 times
+compact vs full,no clear mean difference where CI includes zero,equivalent unless equivalence testing was done
+square wave,aliasing/interpolation-induced distortion cannot be excluded,interpolated active fraction proves physical duty cycle
+ESP32 RF timing,fixed-vector standalone RF inference benchmark,end-to-end sensing latency
+ESP32 feature+RF,post-acquisition compute on pre-acquired input,includes sensing/acquisition/resampling
+Flash,incremental inference-sketch Flash footprint,total application binary size
+LOBO,strict unseen-battery generalization estimate for architecture/protocol,performance of all-data deployed fit on unseen batteries

@@ -1,0 +1,11 @@
+{
+  "protocol_id": "ONLINE_FIXED_START_CAUSAL_10S_V1",
+  "duration_s": 10.0,
+  "cohort_rows": 2521,
+  "cohort_batteries": 34,
+  "cohort_cycle_uid_sha256": "db9a535cf501947565f8862d6c4557a94d7f408ebdb29b5ee1de3f29864b84f5",
+  "F5_acceptance_sha256": "ae6c1d25f00d9f2cb441e988c8790b0d56c56f3d1edd8186c2135213fcceb842",
+  "F5_provenance_sha256": "f09573e758649ba112e4ca31623ea2a95f846805bb5f2e93e11c5bd8884c5dc3",
+  "F7_source_sha256": "12605b610b65e8d5bd04041386332d3f607c93eefbcb59b46f7e68c9b45e3e87",
+  "F7_contract_sha256": "6131f2743da5dff8ab10f7e8ba125352ffffdac928874de0db6ec7858e6da982"
+}

@@ -1,0 +1,42 @@
+{
+  "protocol_id": "ONLINE_FIXED_START_CAUSAL_10S_V1",
+  "cohort_id": "TIER_A_PRIMARY_COMMON_2521",
+  "feature_schema_id": "VIT_44_FEATURES_V1",
+  "model_architecture_id": "RF20_DEPTH7_V1",
+  "fit_id": "FINAL_ONLINE_ALL2521_SEED42_V1",
+  "created_at": "2026-09-30T07:25:29.881334+03:00",
+  "training_cycles": 2521,
+  "training_batteries": 34,
+  "features": 44,
+  "seed": 42,
+  "trees": 20,
+  "configured_max_depth": 7,
+  "total_tree_nodes": 3968,
+  "target_definition": "SOH_rated_pct = Capacity_Ah / 2.0_Ah * 100",
+  "headline_lobo_result_note": "7.096415349426006 pp is the strict LOBO estimate for this online protocol/RF20x7 architecture. It is NOT the training error of the all-data deployment fit.",
+  "python_c_style_parity": {
+    "vectors_checked": 2521,
+    "mean_abs_diff_pp": 3.983721771854161e-06,
+    "max_abs_diff_pp": 1.6756776972215448e-05,
+    "tolerance_pp": 0.0001,
+    "pass": true
+  },
+  "device_model_parity_vectors": {
+    "count": 18,
+    "batteries": 13,
+    "experiment_groups": 9,
+    "purpose": "Numerical device parity only; not an independent accuracy set."
+  },
+  "artifact_hashes": {
+    "online_fixed_start_10s_manifest.csv": "edf8ee6625fee12931149fec0b7b086ed0f32fc393c6234eb042bdeef5f6dea2",
+    "final_online_training_manifest.csv": "f177295b5c20b9ec1246e5f40d3652f0eb86bc42bbae169d03781758e2e74f40",
+    "final_online_training_features.npz": "1faf11802ab082e470b26257c8e34a9eb33c50a70ebea8ff385c4043e2f30acd",
+    "feature_order.csv": "91981ac596a0a0b0f7354af9db98ee0993924cfed33c3352ecf164f0286a9851",
+    "imputer_medians.csv": "fdb4a1fe61787a19623aee01d43bf8d18241fefa150b1a88c5b80495d03d6f17",
+    "final_online_rf20x7_pipeline.pkl": "2ad2b2ca89ab0a5aa09cffe3df663bbbb49d3e198903e3e6939c96f555f295e2",
+    "final_online_rf20x7_model.h": "e7720cf63f0056c34dbede64db8b1716552633437edcae2bda3a21a6ab250977",
+    "online_model_parity_manifest.csv": "af72ecafc57f7349d0dccf038e9389c862e504a90a16fdea93ebc91fb24773b4",
+    "online_model_parity_vectors.csv": "62ce0c43c96fd26822292cbc2d910f0e1a4cb01711615658330681bf57cf2d14",
+    "final_online_model_parity_vectors.h": "cee0dc9f9259bfc8af94ba76b1f2e52dd581ac7c660b2459d00892067ceeff16"
+  }
+}

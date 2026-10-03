@@ -1,0 +1,20 @@
+﻿check_id,check,pass
+F1_01,Critical F1 artifact hashes frozen,True
+F1_02,Temperature matched pool = 31 unique cells,True
+F1_03,B0038/B0039/B0040 excluded from strict pool,True
+F1_04,Temperature condition folds have zero battery overlap,True
+F1_05,Matched LOBO has 31 folds/model and zero overlap,True
+F1_06,Corrected aggregate values match frozen results,True
+F1_07,5000-repeat battery bootstrap CIs match frozen results,True
+F1_08,Independent audit sanity and claim registry pass,True
+F3_01,Critical F3 artifact hashes frozen,True
+F3_02,Canonical NPZ is 2521x44 float32 X + float64 y,True
+F3_03,Canonical target reconstructs 20/20 trees,True
+F3_04,Legacy float32 target reconstructs 0/20 trees,True
+F3_05,Canonical strict LOBO has 34 unique batteries,True
+F3_06,Canonical LOBO macro MAE = 7.096415349426 pp,True
+F3_07,Max per-battery MAE diff vs frozen <=3e-14 pp,True
+F3_08,RF20x7 parameter contract passes,True
+F3_09,Target precision contract passes,True
+F3_10,Exact software environment contract passes,True
+F3_11,F3 internal artifact manifest verifies,True

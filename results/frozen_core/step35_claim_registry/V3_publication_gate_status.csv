@@ -1,0 +1,11 @@
+﻿gate_id,area,status,blocking_for_draft,blocking_for_submission,evidence
+P01,F5 raw provenance,PASS,False,False,Step32
+P02,F2 square-wave interpretation,PASS,False,False,Step33
+P03,F7 timing source,PASS,False,False,Step33
+P04,F1 matched temperature OOD,PASS,False,False,Step34
+P05,F3 canonical target/environment,PASS,False,False,Step34
+P06,F6 exact build identity,PARTIAL,False,False,Known board/core retained; some exact build fields unrecovered.
+P07,Literature matrix / research gap,OPEN,False,True,Complete before final Introduction/Related Work.
+P08,Paper V3 text/table/figure synchronization,OPEN,False,True,Next publication step.
+P09,Final Freeze V3 package/manifest/clean rebuild,OPEN,False,True,After Paper V3 content freeze.
+P10,Author/repository/license metadata,OPEN,False,True,Author input required.

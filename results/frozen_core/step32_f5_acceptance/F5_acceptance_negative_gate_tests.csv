@@ -1,0 +1,7 @@
+﻿negative_gate,rejected_as_required
+missing acceptance file,True
+empty acceptance file,True
+wrong protocol,True
+stale/wrong contract hash,True
+one failed scientific check,True
+empty check list,True

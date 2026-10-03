@@ -1,0 +1,152 @@
+{
+  "schema_version": "F5_ACCEPTANCE_V1",
+  "generated_utc": "2026-10-02T07:10:28.286795+00:00",
+  "protocol_id": "ONLINE_FIXED_START_CAUSAL_10S_V1",
+  "expected_rows": 2521,
+  "observed_rows": 2521,
+  "unique_cycle_uid": 2521,
+  "raw_source_file_count": 34,
+  "feature_tolerance": 1e-05,
+  "global_raw_to_44_max_abs_diff": 0.0,
+  "causal_tolerance_s": 1e-09,
+  "max_latest_used_minus_decision_s": 0.0,
+  "max_future_support_s": 0.0,
+  "future_perturbation_scope_n": 50,
+  "future_perturbation_scope_statement": "Deterministic 50-cycle negative test; do not describe as a 2521-cycle perturbation test.",
+  "f5_code_sha256": "91c0e8048c30dc039f603699786d4ea6226e2cca67073951370efea34e07125b",
+  "input_code_contract_sha256": "cc21e170b42d185c619d28e4b8aafde406b20d4338096f0daa759fab7bb9b20d",
+  "critical_artifact_sha256": {
+    "f5_code": "91c0e8048c30dc039f603699786d4ea6226e2cca67073951370efea34e07125b",
+    "feature_order": "91981ac596a0a0b0f7354af9db98ee0993924cfed33c3352ecf164f0286a9851",
+    "feature_parity": "18e5cbe33a25b8bde43ef353597079cb5a9ddcf0a7e1ede01a781c4aa05a31c7",
+    "features": "1faf11802ab082e470b26257c8e34a9eb33c50a70ebea8ff385c4043e2f30acd",
+    "manifest": "f177295b5c20b9ec1246e5f40d3652f0eb86bc42bbae169d03781758e2e74f40",
+    "negative_test": "04c3e2bca9efe4d8f5bf7eac201098b6c149d9c1eae9060959d2aa747f37c085",
+    "provenance": "f09573e758649ba112e4ca31623ea2a95f846805bb5f2e93e11c5bd8884c5dc3"
+  },
+  "global8_pass": true,
+  "integrity_pass": true,
+  "F5_FINAL_ACCEPTANCE": true,
+  "checks": [
+    {
+      "group": "global8",
+      "check_id": "F5_G01",
+      "check": "2521 cycles have PASS provenance",
+      "pass": true
+    },
+    {
+      "group": "global8",
+      "check_id": "F5_G02",
+      "check": "raw_source_sha256 complete",
+      "pass": true
+    },
+    {
+      "group": "global8",
+      "check_id": "F5_G03",
+      "check": "raw_sample_indices complete",
+      "pass": true
+    },
+    {
+      "group": "global8",
+      "check_id": "F5_G04",
+      "check": "latest_used_timestamp_s complete",
+      "pass": true
+    },
+    {
+      "group": "global8",
+      "check_id": "F5_G05",
+      "check": "raw→44 feature parity <=1e-5 for all cycles",
+      "pass": true
+    },
+    {
+      "group": "global8",
+      "check_id": "F5_G06",
+      "check": "latest-used timestamp never exceeds decision",
+      "pass": true
+    },
+    {
+      "group": "global8",
+      "check_id": "F5_G07",
+      "check": "stored future_support is zero",
+      "pass": true
+    },
+    {
+      "group": "global8",
+      "check_id": "F5_G08",
+      "check": "future perturbation negative test passes",
+      "pass": true
+    },
+    {
+      "group": "integrity",
+      "check_id": "F5_I01",
+      "check": "provenance row count == 2521",
+      "pass": true
+    },
+    {
+      "group": "integrity",
+      "check_id": "F5_I02",
+      "check": "2521 unique cycle_uid",
+      "pass": true
+    },
+    {
+      "group": "integrity",
+      "check_id": "F5_I03",
+      "check": "protocol_id exactly ONLINE_FIXED_START_CAUSAL_10S_V1",
+      "pass": true
+    },
+    {
+      "group": "integrity",
+      "check_id": "F5_I04",
+      "check": "34 unique raw source files",
+      "pass": true
+    },
+    {
+      "group": "integrity",
+      "check_id": "F5_I05",
+      "check": "decision_time_s finite numeric",
+      "pass": true
+    },
+    {
+      "group": "integrity",
+      "check_id": "F5_I06",
+      "check": "future_support_s finite numeric",
+      "pass": true
+    },
+    {
+      "group": "integrity",
+      "check_id": "F5_I07",
+      "check": "feature_max_abs_diff finite numeric",
+      "pass": true
+    },
+    {
+      "group": "integrity",
+      "check_id": "F5_I08",
+      "check": "feature parity CSV has 2521 unique cycle_uid",
+      "pass": true
+    },
+    {
+      "group": "integrity",
+      "check_id": "F5_I09",
+      "check": "provenance/parity cycle_uid sets align exactly",
+      "pass": true
+    },
+    {
+      "group": "integrity",
+      "check_id": "F5_I10",
+      "check": "negative perturbation scope exactly 50 cycles",
+      "pass": true
+    },
+    {
+      "group": "integrity",
+      "check_id": "F5_I11",
+      "check": "negative perturbation cycle_uid unique",
+      "pass": true
+    },
+    {
+      "group": "integrity",
+      "check_id": "F5_I12",
+      "check": "negative perturbation max feature difference == 0",
+      "pass": true
+    }
+  ]
+}

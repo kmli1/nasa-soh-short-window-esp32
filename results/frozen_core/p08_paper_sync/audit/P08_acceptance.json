@@ -1,0 +1,24 @@
+{
+  "schema_version": "NASA_SOH_P08_PAPER_V3_SYNC_V1",
+  "created_utc": "2026-10-03T08:32:31.242920+00:00",
+  "source_repo": "${PROJECT_ROOT}/github_release_build_v6/nasa-soh-short-window-esp32",
+  "protocol_id": "ONLINE_FIXED_START_CAUSAL_10S_V1",
+  "P08_PAPER_V3_SYNC": true,
+  "tables_generated": 5,
+  "figures_generated": 5,
+  "stale_value_scan_pass": true,
+  "critical_values": {
+    "rf20_strict_lobo_macro_mae_pp": 7.096415349426007,
+    "temperature_penalty_pp": 6.996524763109244,
+    "extra_history_p95_s": 9.25,
+    "extra_history_max_s": 9.985,
+    "esp32_incremental_flash_kib": 63.3125,
+    "esp32_standalone_rf_mean_us": 62.302,
+    "esp32_post_acquisition_total_mean_us": 584.141
+  },
+  "remaining_submission_gates": [
+    "P07 Literature matrix / research gap",
+    "P09 Final Freeze V3 package / manifest / clean rebuild",
+    "P10 Author / repository / license metadata"
+  ]
+}

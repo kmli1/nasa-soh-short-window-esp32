@@ -1,0 +1,11 @@
+RESULTS — V3 SYNCHRONIZED DRAFT
+
+Under strict leave-one-battery-out evaluation of the final 34-battery, 2521-cycle online cohort, RF20x7 achieved a battery-macro MAE of 7.096415 pp (95% battery-bootstrap CI 5.410004–8.946202 pp), compared with 7.202305 pp for RF150. The paired RF20x7-minus-RF150 difference was -0.105890 pp (95% CI -0.478393 to +0.274599 pp). This interval supports no clear mean performance difference, but it is not an equivalence test.
+
+Under the same-endpoint causal duration sensitivity experiment, the RF20x7 10-s-minus-300-s battery-macro MAE difference was +0.194498 pp (95% CI -0.162818 to +0.525600 pp). Because the interval contains zero, the result does not establish equivalence between durations.
+
+Operating-condition shifts produced larger penalties. For RF20x7, the experiment-group penalty was +3.808915 pp (95% CI 1.579785–6.331422 pp), the load-family penalty was +5.280620 pp (95% CI 2.348474–8.288434 pp), and the corrected matched-pool temperature-family penalty was +6.996525 pp (95% CI 4.116840–9.712289 pp).
+
+The nominal causal observation interval was 10 s after a 5-s stabilization period. Owing to sparse raw sampling, the median active-discharge-onset-to-decision time was 21.812 s, while the nominal interval contained a median of 1 raw sample. Thus, the 11-point grid should not be interpreted as 11 independent measurements.
+
+On the ESP32-C6, the retained matched-build evidence gave an incremental inference-sketch Flash footprint of 63.3125 KiB, a standalone RF inference mean of 62.302 µs, and a feature-plus-RF post-acquisition compute mean of 584.141 µs. End-to-end software numerical parity passed for 18/18 vectors and 792/792 features with a maximum prediction difference of 0 pp. These deployment measurements do not include sensing/acquisition/resampling time and do not constitute physical ADC validation.

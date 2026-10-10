@@ -2,8 +2,8 @@ cff-version: 1.2.0
 title: "Resource-Aware Short-Window State-of-Health Estimation for Lithium-Ion Batteries"
 message: "If you use this research artifact, please cite it using the metadata in this file."
 type: software
-version: "0.3.0-evidence-v3"
-date-released: 2026-10-03
+version: "0.3.1-evidence-v3"
+date-released: 2026-10-10
 repository-code: "https://github.com/kmli1/nasa-soh-short-window-esp32"
 license: "MIT"
 authors:

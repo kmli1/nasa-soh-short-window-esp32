@@ -51,6 +51,9 @@ repository to avoid stale-result ambiguity. The P09 technical freeze remains ide
 - `literature/P07_SCREENED_STUDY_REGISTRY.csv` — saturation-review coverage registry.
 
 
+The literature matrices under `literature/` and `results/frozen_core/p07_literature/` preserve the P07 screening snapshot dated 3 October 2026. The final manuscript includes additional references identified during subsequent review. For the final literature comparison, consult the manuscript and its cited original publications.
+
+
 ## Final manuscript figures
 
 Only the P08-synchronized manuscript figures are exposed in the public root figure set:
